@@ -65,7 +65,7 @@ inspect the signing details of our image
 ```sh
 $ docker trust inspect --pretty diiegg/security-engineer.local
 ```
-![enter image description here](!%5BScreenshot%20from%202020-01-27%2023-09-19%5D%28https://user-images.githubusercontent.com/12648295/73222087-4d6be480-415a-11ea-9a96-80233e59bbd4.png%29)
+![lo](https://user-images.githubusercontent.com/12648295/73222087-4d6be480-415a-11ea-9a96-80233e59bbd4.png)
 
 Run the verify image 
 
@@ -88,7 +88,7 @@ Monitor a Docker image for known vulnerabilities so that once newly discovered v
 ```sh
 $ snyk monitor --docker node:10
 ```
-![enter image description here](!%5BScreenshot%20from%202020-01-27%2023-13-39%5D%28https://user-images.githubusercontent.com/12648295/73222275-c0755b00-415a-11ea-9a5d-b6df74a06789.png%29)
+![enter image description here](https://user-images.githubusercontent.com/12648295/73222275-c0755b00-415a-11ea-9a5d-b6df74a06789.png)
 
 Analyzing Images with Anchor
 
@@ -96,7 +96,7 @@ Analyzing Images with Anchor
 $ anchore-cli image add docker.io/library/nginx:latest
 ```
 
-![enter image description here](!%5BScreenshot%20from%202020-01-27%2023-23-10%5D%28https://user-images.githubusercontent.com/12648295/73222807-126ab080-415c-11ea-8355-c3d679db4f64.png%29)
+![enter image description here](https://user-images.githubusercontent.com/12648295/73223097-ddab2900-415c-11ea-86e8-d1f626e13724.png)
 
 For run This image in produccion please visit
 
