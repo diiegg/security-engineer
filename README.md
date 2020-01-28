@@ -90,15 +90,16 @@ $ snyk monitor --docker node:10
 ```
 ![enter image description here](https://user-images.githubusercontent.com/12648295/73222275-c0755b00-415a-11ea-9a5d-b6df74a06789.png)
 
-Analyzing Images with Anchor
+Analysing Images with Anchor
 
 ```sh
-$ anchore-cli image add docker.io/library/nginx:latest
+$ anchore-cli image add diiegg/security-engineer:latest
 ```
+![enter image description here](https://user-images.githubusercontent.com/12648295/73225792-c4f34100-4165-11ea-955a-8b9996ca0e03.png)
 
 ![enter image description here](https://user-images.githubusercontent.com/12648295/73223097-ddab2900-415c-11ea-86e8-d1f626e13724.png)
 
-For run This image in produccion please visit
+For run This image in production please visit
 
 * [Docker-bench-security](https://github.com/docker/docker-bench-security) - The Docker Bench for Security is a script that checks for dozens of common best-practices around deploying Docker containers in production
 
